@@ -12,8 +12,7 @@ nav {
     display: block;
     height: 88px;
     padding: 24px 24px;
-    background-color: /*#ecb722*/
-    #03a3df;
+    background-color: #03a3df;
 }
 
 nav a {
@@ -148,4 +147,52 @@ li a:hover {
     padding: 32px 8px;
     display: block;
     float: right;
+}
+
+.form-wrapper {
+  padding: 20px 0px;
+  display: block;
+  grid-gap: 1rem;
+  border-radius: 6px;
+  background: #ecb722;
+
+
+}
+.form {
+  padding: 32px;
+  display: block;
+  margin: auto;
+  width: 768px;
+
+}
+
+#submit {
+  border: 0px;
+  border-radius: 2px;
+  font-size: 1rem;
+  padding: 16px;
+  background: #03a3df;
+  padding: .5rem;
+  color: white;
+  float: right;
+}
+
+button, input[type=text], input[type=email],  input[type=phone], input[type=date], select, textarea {
+    padding: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    outline: none;
+    line-height: 1rem;
+    width: 100%;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1.25rem;
 }
